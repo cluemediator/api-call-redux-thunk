@@ -1,4 +1,6 @@
-import { getUserListStarted, getUserListSuccess, getUserListFailure } from "../actions/userActions";
+import {
+  getUserListStarted, getUserListSuccess, getUserListFailure
+} from "../actions/userActions";
 
 // get user list
 export const getUserList = (page = 1) => async dispatch => {
